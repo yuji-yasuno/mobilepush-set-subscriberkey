@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CocoaLumberjack.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SalesforceMobileSDK-iOS-SalesforceSDKResources.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SalesforceMobileSDK-iOS-Settings.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>SalesforceMobileSDK-iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>12E2BC28C62976C425F4B71C2723F0B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2A21A18613B1D16AD1C69FB5613F8CD6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3079C954513AE5644D189A0E9F52F3AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>351B46509463BBD9044B15EB91C4BA83</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>86B32814C7AD82ADDE8D323CB5A6B0E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

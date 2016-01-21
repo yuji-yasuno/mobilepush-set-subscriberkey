@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38E721EF1C4A0B900005F994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E721EE1C4A0B900005F994 /* AppDelegate.swift */; };
+		38E721F11C4A0B900005F994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E721F01C4A0B900005F994 /* ViewController.swift */; };
+		38E721F41C4A0B900005F994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E721F21C4A0B900005F994 /* Main.storyboard */; };
+		38E721F61C4A0B900005F994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E721F51C4A0B900005F994 /* Assets.xcassets */; };
+		38E721F91C4A0B900005F994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E721F71C4A0B900005F994 /* LaunchScreen.storyboard */; };
+		38E7220D1C4A0BC90005F994 /* libJB4ASDK-4.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E7220B1C4A0BC90005F994 /* libJB4ASDK-4.0.3.a */; };
+		38E722101C4A0DEB0005F994 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 38E7220F1C4A0DEB0005F994 /* Podfile */; };
+		7BA6A3916F326161DB2082E2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAD45A09629F528B176F5EA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EAD45A09629F528B176F5EA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E721EB1C4A0B900005F994 /* mc-taskforce-mobile-subscriberkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mc-taskforce-mobile-subscriberkey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E721EE1C4A0B900005F994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38E721F01C4A0B900005F994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38E721F31C4A0B900005F994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38E721F51C4A0B900005F994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38E721F81C4A0B900005F994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38E721FA1C4A0B900005F994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E722011C4A0BC90005F994 /* ETGenericUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETGenericUpdate.h; sourceTree = "<group>"; };
+		38E722021C4A0BC90005F994 /* ETKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETKeyValueStore.h; sourceTree = "<group>"; };
+		38E722031C4A0BC90005F994 /* ETLandingPagePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLandingPagePresenter.h; sourceTree = "<group>"; };
+		38E722041C4A0BC90005F994 /* ETLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLocationManager.h; sourceTree = "<group>"; };
+		38E722051C4A0BC90005F994 /* ETLocationUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLocationUpdate.h; sourceTree = "<group>"; };
+		38E722061C4A0BC90005F994 /* ETMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMessage.h; sourceTree = "<group>"; };
+		38E722071C4A0BC90005F994 /* ETPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPush.h; sourceTree = "<group>"; };
+		38E722081C4A0BC90005F994 /* ETRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETRegion.h; sourceTree = "<group>"; };
+		38E722091C4A0BC90005F994 /* ETSqliteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETSqliteHelper.h; sourceTree = "<group>"; };
+		38E7220A1C4A0BC90005F994 /* ExactTargetEnhancedPushDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExactTargetEnhancedPushDataSource.h; sourceTree = "<group>"; };
+		38E7220B1C4A0BC90005F994 /* libJB4ASDK-4.0.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libJB4ASDK-4.0.3.a"; sourceTree = "<group>"; };
+		38E7220C1C4A0BC90005F994 /* PushConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushConstants.h; sourceTree = "<group>"; };
+		38E7220E1C4A0D620005F994 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		38E7220F1C4A0DEB0005F994 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		833270CEAE217D2B89FCF9BC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A8F66C012C5BE0D740495654 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E721E81C4A0B900005F994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E7220D1C4A0BC90005F994 /* libJB4ASDK-4.0.3.a in Frameworks */,
+				7BA6A3916F326161DB2082E2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38E721E21C4A0B900005F994 = {
+			isa = PBXGroup;
+			children = (
+				38E7220F1C4A0DEB0005F994 /* Podfile */,
+				38E721ED1C4A0B900005F994 /* mc-taskforce-mobile-subscriberkey */,
+				38E721EC1C4A0B900005F994 /* Products */,
+				F8255170A78DDD9C8CFB26F0 /* Pods */,
+				86D826E26986F63B7B3B9BF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38E721EC1C4A0B900005F994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E721EB1C4A0B900005F994 /* mc-taskforce-mobile-subscriberkey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38E721ED1C4A0B900005F994 /* mc-taskforce-mobile-subscriberkey */ = {
+			isa = PBXGroup;
+			children = (
+				38E722001C4A0BB30005F994 /* JB4A SDK */,
+				38E721EE1C4A0B900005F994 /* AppDelegate.swift */,
+				38E721F01C4A0B900005F994 /* ViewController.swift */,
+				38E721F21C4A0B900005F994 /* Main.storyboard */,
+				38E721F51C4A0B900005F994 /* Assets.xcassets */,
+				38E721F71C4A0B900005F994 /* LaunchScreen.storyboard */,
+				38E721FA1C4A0B900005F994 /* Info.plist */,
+				38E7220E1C4A0D620005F994 /* BridgingHeader.h */,
+			);
+			path = "mc-taskforce-mobile-subscriberkey";
+			sourceTree = "<group>";
+		};
+		38E722001C4A0BB30005F994 /* JB4A SDK */ = {
+			isa = PBXGroup;
+			children = (
+				38E722011C4A0BC90005F994 /* ETGenericUpdate.h */,
+				38E722021C4A0BC90005F994 /* ETKeyValueStore.h */,
+				38E722031C4A0BC90005F994 /* ETLandingPagePresenter.h */,
+				38E722041C4A0BC90005F994 /* ETLocationManager.h */,
+				38E722051C4A0BC90005F994 /* ETLocationUpdate.h */,
+				38E722061C4A0BC90005F994 /* ETMessage.h */,
+				38E722071C4A0BC90005F994 /* ETPush.h */,
+				38E722081C4A0BC90005F994 /* ETRegion.h */,
+				38E722091C4A0BC90005F994 /* ETSqliteHelper.h */,
+				38E7220A1C4A0BC90005F994 /* ExactTargetEnhancedPushDataSource.h */,
+				38E7220B1C4A0BC90005F994 /* libJB4ASDK-4.0.3.a */,
+				38E7220C1C4A0BC90005F994 /* PushConstants.h */,
+			);
+			name = "JB4A SDK";
+			sourceTree = "<group>";
+		};
+		86D826E26986F63B7B3B9BF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EAD45A09629F528B176F5EA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8255170A78DDD9C8CFB26F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8F66C012C5BE0D740495654 /* Pods.debug.xcconfig */,
+				833270CEAE217D2B89FCF9BC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38E721EA1C4A0B900005F994 /* mc-taskforce-mobile-subscriberkey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E721FD1C4A0B900005F994 /* Build configuration list for PBXNativeTarget "mc-taskforce-mobile-subscriberkey" */;
+			buildPhases = (
+				06A24EE1FFEB141EA9E8375C /* Check Pods Manifest.lock */,
+				38E721E71C4A0B900005F994 /* Sources */,
+				38E721E81C4A0B900005F994 /* Frameworks */,
+				38E721E91C4A0B900005F994 /* Resources */,
+				C56F25B8739143F8623A5442 /* Embed Pods Frameworks */,
+				7BD9F167A283399B372D9E3A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mc-taskforce-mobile-subscriberkey";
+			productName = "mc-taskforce-mobile-subscriberkey";
+			productReference = 38E721EB1C4A0B900005F994 /* mc-taskforce-mobile-subscriberkey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38E721E31C4A0B900005F994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = salesforce.com;
+				TargetAttributes = {
+					38E721EA1C4A0B900005F994 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LN9P8EM72H;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 38E721E61C4A0B900005F994 /* Build configuration list for PBXProject "mc-taskforce-mobile-subscriberkey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38E721E21C4A0B900005F994;
+			productRefGroup = 38E721EC1C4A0B900005F994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E721EA1C4A0B900005F994 /* mc-taskforce-mobile-subscriberkey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E721E91C4A0B900005F994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E721F91C4A0B900005F994 /* LaunchScreen.storyboard in Resources */,
+				38E721F61C4A0B900005F994 /* Assets.xcassets in Resources */,
+				38E722101C4A0DEB0005F994 /* Podfile in Resources */,
+				38E721F41C4A0B900005F994 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06A24EE1FFEB141EA9E8375C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD9F167A283399B372D9E3A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C56F25B8739143F8623A5442 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38E721E71C4A0B900005F994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E721F11C4A0B900005F994 /* ViewController.swift in Sources */,
+				38E721EF1C4A0B900005F994 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38E721F21C4A0B900005F994 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E721F31C4A0B900005F994 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38E721F71C4A0B900005F994 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E721F81C4A0B900005F994 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38E721FB1C4A0B900005F994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38E721FC1C4A0B900005F994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E721FE1C4A0B900005F994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F66C012C5BE0D740495654 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "mc-taskforce-mobile-subscriberkey/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mc-taskforce-mobile-subscriberkey",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salesforce.mc-taskforce-mobile-subscriberkey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/BridgingHeader.h";
+			};
+			name = Debug;
+		};
+		38E721FF1C4A0B900005F994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833270CEAE217D2B89FCF9BC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "mc-taskforce-mobile-subscriberkey/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mc-taskforce-mobile-subscriberkey",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salesforce.mc-taskforce-mobile-subscriberkey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/BridgingHeader.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38E721E61C4A0B900005F994 /* Build configuration list for PBXProject "mc-taskforce-mobile-subscriberkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E721FB1C4A0B900005F994 /* Debug */,
+				38E721FC1C4A0B900005F994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E721FD1C4A0B900005F994 /* Build configuration list for PBXNativeTarget "mc-taskforce-mobile-subscriberkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E721FE1C4A0B900005F994 /* Debug */,
+				38E721FF1C4A0B900005F994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38E721E31C4A0B900005F994 /* Project object */;
+}
